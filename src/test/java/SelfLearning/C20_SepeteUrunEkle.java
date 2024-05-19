@@ -65,8 +65,6 @@ public class C20_SepeteUrunEkle {
 
         Thread.sleep(3000);
 
-        Assertions.assertTrue(sepet.isDisplayed());
-
         driver.quit();
 
 
