@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class C16_RadioButtonSelect {
+public class C16_RadioButtonSelect_PageDown {
 
     /*
 Gerekli yapiyi olusturun ve aşağıdaki görevi tamamlayın.
