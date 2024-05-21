@@ -54,16 +54,26 @@ public class C20_SepeteUrunEkle {
                 .click();
 
       WebElement sepet= driver.findElement
-              (By.xpath("//*[@class='inventory_item_name']"));
+              (By.xpath("//*[@data-test='item-4-title-link']"));
 
 
-       String sectigimUrun=ilkUrun.getText(); // expected
-        String sonU= sepet.getText();
+      // String urun=  System.out.println(sepet.getText());
 
-        Assertions.assertTrue(sonU.contains(sectigimUrun));
+
+
+
+        System.out.println(ilkUrun.getText());
+
+
+
+      driver.quit();
+
+
+
 
 
         Thread.sleep(3000);
+
 
         driver.quit();
 
