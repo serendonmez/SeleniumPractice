@@ -25,11 +25,12 @@ public class C03_ {
        WebElement searchBox= driver.findElement(By.id("search"));
 
        searchBox.sendKeys("wise quarter"+ Keys.ENTER);
+       driver.findElement(By.id("hdtb-tls")).click();
+      String sonucSayisi= driver.findElement(By.id("result-stats")).getText();
+        System.out.println(sonucSayisi);
 
 
-
-
-     //  driver.quit();
+        driver.quit();
 
 
     }

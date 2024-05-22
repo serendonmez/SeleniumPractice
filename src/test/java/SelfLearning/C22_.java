@@ -1,6 +1,6 @@
 package SelfLearning;
 
-public class C22_ {
+public class C22_  {
 
     /*
     Radio Buttons
@@ -15,4 +15,6 @@ uygun olani secin
 e. Sectiginiz radio button’un seçili, ötekilerin seçili
 olmadigini test edin
      */
+
+
 }

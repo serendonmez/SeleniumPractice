@@ -1,13 +1,11 @@
 package Day02;
 
-import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.sql.Driver;
 import java.time.Duration;
 
-public class C02 {
+public class C02_Navigate {
     public static void main(String[] args) {
         /*
      1-Driver oluşturalim
@@ -34,10 +32,33 @@ public class C02 {
 
         driver.get("https://www.testotomasyonu.com");
 
-       String url= driver.getCurrentUrl();
-       String baslik= driver.getTitle();
+       String actualUrl= driver.getCurrentUrl();
+       String expectedUrl="babayigit";
+       String actualBaslik= driver.getTitle();
+       String expectedBaslik="AŞK";
 
-        Assertions.assertEquals(baslik,"AŞK");
+      if (actualBaslik.contains(expectedBaslik)){
+          System.out.println("test failed");
+      }
+      if (actualUrl.contains(expectedUrl)){
+          System.out.println("test passed");
+      }
+
+        driver.get("https://wisequarter.com/");
+        String actualTitle=driver.getTitle();
+        String expectedTitle="Quarter";
+
+       if (actualTitle.contains(expectedTitle)){
+           System.out.println("test passed");
+       }
+
+
+        driver.navigate().back();
+        driver.navigate().refresh();
+        driver.navigate().forward();
+        driver.quit();
+
+
 
 
 
