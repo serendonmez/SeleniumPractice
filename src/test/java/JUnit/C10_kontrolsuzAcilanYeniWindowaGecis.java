@@ -95,6 +95,12 @@ public class C10_kontrolsuzAcilanYeniWindowaGecis extends TestBaseAll {
         System.out.println(internetHandle);
         System.out.println(yeniInternetHandle);
 
+        ReusableMethods.windowaGecis("https://www.youtube.com/",driver);
+
+        System.out.println(driver.getCurrentUrl());
+
+
+        ReusableMethods.bekle(5);
 
     }
 }
