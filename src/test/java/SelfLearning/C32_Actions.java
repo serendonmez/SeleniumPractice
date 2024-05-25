@@ -24,15 +24,31 @@ public class C32_Actions extends TestBaseAll {
 
         Actions actions = new Actions(driver);
 
+
         WebElement searchBox= driver.findElement(By.id("global-search"));
 
         ReusableMethods.bekle(1);
-        actions.click(searchBox).sendKeys("DELL Core I3"+ Keys.ENTER).perform();
+        actions.click(searchBox).keyDown(Keys.SHIFT)
+                .sendKeys("dell c")
+                .keyUp(Keys.SHIFT)
+                .sendKeys("ore ")
+                .keyDown(Keys.SHIFT)
+                .sendKeys("i")
+                .keyUp(Keys.SHIFT)
+                .sendKeys("3")
+                .sendKeys(Keys.ENTER).perform();
+
+        ReusableMethods.bekle(1);
+
+
+
 
         WebElement dellPC=driver.findElement(By.xpath("//*[@class='prod-title mb-3 ']"));
-        ReusableMethods.bekle(1);
-        String expectedIsim= "DELL Core I3";
+        ReusableMethods.bekle(2);
+
+        String expectedIsim="DELL Core I3";
         String actualIsim= dellPC.getText();
+
         Assertions.assertTrue(actualIsim.contains(expectedIsim));
 
 
