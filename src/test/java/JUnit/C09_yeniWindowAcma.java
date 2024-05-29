@@ -1,7 +1,7 @@
 package JUnit;
 
-import Utilities.ReusableMethods;
-import Utilities.TestBaseAll;
+import Utilities.Utilities.ReusableMethods;
+import Utilities.Utilities.TestBaseAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WindowType;
 

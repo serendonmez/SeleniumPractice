@@ -1,9 +1,8 @@
-package Utilities;
+package Utilities.Utilities;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import java.sql.Driver;
 import java.util.List;
 import java.util.Set;
 
@@ -50,5 +49,31 @@ public class ReusableMethods {
 
 
 
+    }
+
+
+    public static WebElement istenenIframeGec(WebDriver driver,int kacinciIframe,String url) throws InterruptedException {
+        driver.get(url);
+        List<WebElement> iframes= driver.findElements(By.tagName("iframe"));
+
+
+        System.out.println(iframes);
+            String iframeWebelement="";
+            WebElement istenenIframe=null;
+
+        for (int i = 1; i < iframes.size(); i++) {
+            if (i==kacinciIframe){
+                iframeWebelement= iframes.get(i).getText();
+                istenenIframe= driver.findElement(By.xpath(iframeWebelement));
+                Thread.sleep(3);
+                driver.switchTo().frame(istenenIframe);
+                break;
+
+            }
+
+
+
+        }
+     return istenenIframe;
     }
 }

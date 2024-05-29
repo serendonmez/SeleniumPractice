@@ -1,12 +1,8 @@
 package Day02;
 
-import Utilities.ReusableMethods;
-import Utilities.TestBaseAll;
+import Utilities.Utilities.ReusableMethods;
+import Utilities.Utilities.TestBaseAll;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.time.Duration;
 
 public class C01 extends TestBaseAll {
 

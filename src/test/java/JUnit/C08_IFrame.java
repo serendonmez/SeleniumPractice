@@ -1,7 +1,6 @@
 package JUnit;
 
-import Utilities.ReusableMethods;
-import Utilities.TestBaseEach;
+import Utilities.Utilities.TestBaseEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;

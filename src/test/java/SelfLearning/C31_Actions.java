@@ -1,15 +1,12 @@
 package SelfLearning;
 
-import Utilities.ReusableMethods;
-import Utilities.TestBaseAll;
+import Utilities.Utilities.ReusableMethods;
+import Utilities.Utilities.TestBaseAll;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class C31_Actions extends TestBaseAll {
 

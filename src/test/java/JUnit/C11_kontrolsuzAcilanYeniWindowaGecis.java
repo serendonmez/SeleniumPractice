@@ -1,6 +1,6 @@
 package JUnit;
 
-import Utilities.TestBaseAll;
+import Utilities.Utilities.TestBaseAll;
 import org.junit.jupiter.api.Test;
 
 import java.util.Set;

@@ -1,19 +1,12 @@
 package SelfLearning;
 
-import Utilities.ReusableMethods;
-import Utilities.TestBaseAll;
-import Utilities.TestBaseEach;
+import Utilities.Utilities.ReusableMethods;
+import Utilities.Utilities.TestBaseEach;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Actions;
-
-import javax.swing.*;
-
-import static SelfLearning.C16_RadioButtonSelect_PageDown.driver;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class C24_LinkTextBoslukluCalisir extends TestBaseEach {

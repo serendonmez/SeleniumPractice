@@ -1,7 +1,6 @@
 package SelfLearning;
 
-import Utilities.TestBaseAll;
-import org.checkerframework.checker.units.qual.A;
+import Utilities.Utilities.TestBaseAll;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;

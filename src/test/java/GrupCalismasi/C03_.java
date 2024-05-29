@@ -1,6 +1,6 @@
 package GrupCalismasi;
 
-import Utilities.TestBaseAll;
+import Utilities.Utilities.TestBaseAll;
 import org.junit.jupiter.api.Test;
 
 public class C03_ extends TestBaseAll {

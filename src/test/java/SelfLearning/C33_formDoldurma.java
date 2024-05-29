@@ -1,13 +1,12 @@
 package SelfLearning;
 
-import Utilities.ReusableMethods;
-import Utilities.TestBaseAll;
+import Utilities.Utilities.ReusableMethods;
+import Utilities.Utilities.TestBaseAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.locators.RelativeLocator;
 
 public class C33_formDoldurma extends TestBaseAll {
 
