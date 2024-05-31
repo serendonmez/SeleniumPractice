@@ -1,7 +1,7 @@
 package SelfLearning;
 
-import Utilities.Utilities.ReusableMethods;
-import Utilities.Utilities.TestBaseAll;
+import Utilities.ReusableMethods;
+import Utilities.TestBaseAll;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;

@@ -1,7 +1,7 @@
 package Day02;
 
-import Utilities.Utilities.ReusableMethods;
-import Utilities.Utilities.TestBaseAll;
+import Utilities.ReusableMethods;
+import Utilities.TestBaseAll;
 import org.junit.jupiter.api.Test;
 
 public class C01 extends TestBaseAll {

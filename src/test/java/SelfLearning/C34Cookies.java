@@ -1,6 +1,6 @@
 package SelfLearning;
 
-import Utilities.Utilities.TestBaseAll;
+import Utilities.TestBaseAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

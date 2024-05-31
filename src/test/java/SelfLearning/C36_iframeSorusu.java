@@ -1,7 +1,7 @@
 package SelfLearning;
 
-import Utilities.Utilities.ReusableMethods;
-import Utilities.Utilities.TestBaseAll;
+import Utilities.ReusableMethods;
+import Utilities.TestBaseAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -69,13 +69,7 @@ public class C36_iframeSorusu extends TestBaseAll {
 
     }
 
-    @Test
-
-    void test() throws InterruptedException {
-        ReusableMethods.istenenIframeGec(driver,2,"https://www.guru99.com/live-selenium-project.html");
 
 
-
-    }
 
 }

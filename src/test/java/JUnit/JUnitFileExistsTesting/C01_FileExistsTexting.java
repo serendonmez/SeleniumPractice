@@ -1,6 +1,6 @@
 package JUnit.JUnitFileExistsTesting;
 
-import Utilities.Utilities.TestBaseAll;
+import Utilities.TestBaseAll;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

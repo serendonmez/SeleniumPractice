@@ -1,4 +1,4 @@
-package Utilities.Utilities;
+package Utilities;
 
 
 import org.junit.jupiter.api.AfterEach;

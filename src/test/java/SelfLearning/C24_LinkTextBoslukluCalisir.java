@@ -1,7 +1,7 @@
 package SelfLearning;
 
-import Utilities.Utilities.ReusableMethods;
-import Utilities.Utilities.TestBaseEach;
+import Utilities.ReusableMethods;
+import Utilities.TestBaseEach;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
