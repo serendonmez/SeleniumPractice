@@ -60,8 +60,5 @@ public class C22_WebElementScreenshot extends TestBaseAll {
 
 
 
-
-
-
     }
 }

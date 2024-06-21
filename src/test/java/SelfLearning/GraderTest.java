@@ -109,7 +109,7 @@ class GraderTest {
     }
 
 
-                //Test kodlarinda exceeption varsa Failed olur  bunun icin Junitte özel bir assert methodu vardir
+                //Test kodlarinda exception varsa Failed olur  bunun icin Junitte özel bir assert methodu vardir
 
 
 
